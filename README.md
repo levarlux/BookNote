@@ -236,9 +236,8 @@ NEXT_PUBLIC_VAPI_API_KEY=your_vapi_key
 VAPI_SERVER_SECRET=your_vapi_secret
 
 # AI Services
-GOOGLE_GEMINI_API_KEY=your_gemini_key
-ELEVENLABS_API_KEY=your_elevenlabs_key
 MISTRAL_API_KEY=your_mistral_key
+ELEVENLABS_API_KEY=your_elevenlabs_key
 ```
 
 #### Getting API Keys:
