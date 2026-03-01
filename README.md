@@ -85,7 +85,7 @@ User Upload → PDF Parsing → Text Extraction → Chunking → Embedding Gener
 When a user uploads a PDF:
 1. The PDF is processed using `pdfjs-dist` for text extraction
 2. Text is split into meaningful chunks (overlapping for context)
-3. Each chunk is converted to vector embeddings using Google Gemini API
+3. Each chunk is converted to vector embeddings using Mistral AI API
 4. Embeddings are stored in Convex for similarity search
 
 ### 2. Voice Conversation Flow
@@ -163,7 +163,7 @@ User Voice Input → Vapi (Voice AI) → Query Processing → Similarity Search 
 - **[Clerk](https://clerk.com)** - Authentication and user management
 - **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework
 - **[Shadcn UI](https://ui.shadcn.com/)** - Accessible UI component library
-- **[Google Gemini](https://ai.google.dev/)** - AI embeddings for semantic search
+- **[Mistral AI](https://mistral.ai/)** - AI embeddings for semantic search
 
 ---
 
@@ -248,7 +248,7 @@ MISTRAL_API_KEY=your_mistral_key
 | Clerk | [clerk.com](https://clerk.com) |
 | Vapi | [vapi.ai](https://vapi.ai) |
 | ElevenLabs | [elevenlabs.io](https://elevenlabs.io) |
-| Google AI Studio | [aistudio.google.com](https://aistudio.google.com) |
+| Mistral AI | [console.mistral.ai](https://console.mistral.ai) |
 
 ### Running the Project
 
